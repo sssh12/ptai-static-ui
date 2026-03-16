@@ -26,7 +26,7 @@ export default function CameraWorkoutPage() {
           </div>
         </div>
 
-        <div className="space-y-3 mb-4 mt-3">
+        <div className="space-y-3 mb-6 mt-2">
           <div className="rounded-xl bg-emerald-500/20 border border-emerald-400/40 px-3 py-2 text-sm flex items-center gap-2">
             <CheckCircle2 size={16} className="text-emerald-300" />
             무릎 각도 안정적입니다.
@@ -38,7 +38,7 @@ export default function CameraWorkoutPage() {
 
           <Link
             href="/workout"
-            className="block text-center w-full py-3 rounded-xl bg-white text-gray-900 font-bold"
+            className="block text-center w-full py-3 rounded-xl bg-white text-gray-900 font-bold mb-2"
           >
             운동 완료
           </Link>
