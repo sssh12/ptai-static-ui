@@ -15,7 +15,7 @@ export default function DockBox() {
 
   return (
     <div
-      className="z-20 border-t border-gray-100 bg-white/95 backdrop-blur px-4 pt-2"
+      className="z-20 border-t border-gray-300 bg-gray-50/95 backdrop-blur px-3 pt-1"
       style={{ paddingBottom: "calc(0.75rem + env(safe-area-inset-bottom))" }}
     >
       <div className="grid grid-cols-4 gap-2 rounded-2xl border border-gray-100 bg-gray-50 p-1.5 shadow-sm">
